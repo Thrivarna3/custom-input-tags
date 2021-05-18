@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tags-input {
+   margin: 10px;
+   border: 1px solid black;
+   display: inline-block;
+   border-radius: 4px;
+   background-color: white;
+}
+
+.tags-input .tag {
+   display: inline-block;
+   padding: 7px;
+   margin: 5px;
+   border: 1px black;
+   background-color: #E5E4E2;
+   border-radius: 13px;
+   text-align: center;
+}
+
+.tags-input .tag .closeIcon::after {
+   content: 'x';
+   margin-left: 5px;
+   font-size: 15px;
+   color: red;
+   text-align: center;
+   cursor: pointer;
+   font-weight: bold;
+}
+
+.tags-input input {
+ padding: 5px;
+ font-size: 16px;
+ border: 0;
+ outline: none;
+}
